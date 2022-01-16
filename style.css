@@ -1,0 +1,22 @@
+/* Luis C Marzal */
+nav ul li{
+    display: inline-block;
+}
+
+nav{
+    width: 90%;
+    background-color: greenyellow;
+    height: 100px;
+    margin: auto;
+    display: flex;
+}
+
+
+nav a{
+    width: 25%;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
