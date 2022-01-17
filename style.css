@@ -20,3 +20,8 @@ nav a{
     flex-grow: 1;
     flex-shrink: 1;
 }
+
+.noCambia{
+    flex-grow: 0;
+    flex-shrink: 0;
+}

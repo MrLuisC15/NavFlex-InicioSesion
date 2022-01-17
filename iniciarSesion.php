@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <form action="#" method="post">
-        <label for="">Usuario</label>
-        <input type="text" name="user" require>
-        <label for="">Contraseña</label>
-        <input type="text" name="password" require>
-        <input type="submit" value="Iniciar Sesión">
-    </form>
+<div class="login-box">
+        <h2>Inicio de sesión</h2>
+        <form action="#" method="POST">
+            <div class="user-box">
+                <input type="text" name="user" required="">
+                <label>Usuario:</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="password" required="">
+                <label>Contraseña:</label>
+            </div>
+            
+            <input type="reset" class="boton">
+            <input type="submit" value="Iniciar sesión" class="boton">
+        </form>
+    </div>
 </body>
 </html>
 

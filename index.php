@@ -19,13 +19,13 @@
                     
             if(isset($_SESSION["admin"])){
                 if($_SESSION["admin"]==1){
-                    echo '<a href="cerrarSesion.php">Cerrar Sesión</a>';
+                    echo '<a href="cerrarSesion.php" class="noCambia">Cerrar Sesión</a>';
                     echo '<a href="gestion/index.php">Gestion de Empleados</a>';
                 }
                 
             }
             else {
-                echo '<a href="iniciarSesion.php">Iniciar Sesión</a>';
+                echo '<a href="iniciarSesion.php" class="noCambia">Iniciar Sesión</a>';
             }
         ?>
 
